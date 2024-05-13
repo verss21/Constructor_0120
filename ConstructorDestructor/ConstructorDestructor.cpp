@@ -9,7 +9,11 @@ public:
 	int id;
 	string nama;
 
-	void SetID();
+	void setID();
 	void printAll();
 	mahasiswa(string pnama)
+	{
+		nama = pnama;
+		setID();
+	}
 };
